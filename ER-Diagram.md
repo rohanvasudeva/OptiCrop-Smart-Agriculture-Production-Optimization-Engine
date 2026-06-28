@@ -1,4 +1,4 @@
-# Entity Relationship (ER) Diagram Description
+# Entity Relationship (ER) Diagram
 
 The ER diagram represents the core entities involved in the **OptiCrop Smart Agricultural Production Optimization System** and illustrates how these entities interact with one another. It provides a structured approach for organizing user information, soil data, crop recommendations, machine learning models, prediction outcomes, and generated reports within the system database.
 
