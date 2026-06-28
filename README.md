@@ -71,3 +71,16 @@ The ER model supports the major functionalities of the **OptiCrop Smart Agricult
 * Supporting sustainable farming practices and data-driven agricultural decision-making.
 
 ![alt text](image.png)
+
+# Pre-requisites
+
+The project was developed using a set of powerful Python-based tools and libraries for data processing, machine learning, visualization, and deployment. These technologies provide the foundation for efficient model development, analysis, and application deployment.
+
+* Anaconda Navigator
+* Pycharm
+* Numpy
+* Pandas
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* Flask
