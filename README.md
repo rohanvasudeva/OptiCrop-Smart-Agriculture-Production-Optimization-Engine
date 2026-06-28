@@ -70,7 +70,7 @@ The ER model supports the major functionalities of the **OptiCrop Smart Agricult
 * Generating intelligent crop recommendations and prediction reports.
 * Supporting sustainable farming practices and data-driven agricultural decision-making.
 
-![alt text](ER.png)
+![alt text](Images/ER.png)
 
 # Pre-requisites
 
@@ -167,4 +167,4 @@ This phase focuses on developing and integrating the application interface with 
 
 **Story 3:** Run, test, and validate the application to ensure accurate crop recommendations and smooth system functionality.
 
-![alt text](workflow.png)
+![alt text](Images/Workflow.png)
