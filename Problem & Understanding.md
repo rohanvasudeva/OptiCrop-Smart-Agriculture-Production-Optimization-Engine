@@ -17,3 +17,5 @@ The expected outcomes of the system include:
 * Better support for agricultural planning and decision-making
 
 This business problem specification serves as the basis for further stages including requirement analysis, data collection, model development, system design, implementation, and deployment of the agricultural recommendation system.
+
+![alt text](Problem.png)
