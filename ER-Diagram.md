@@ -1,48 +1,69 @@
-The ER diagram represents the core entities involved in the Loan Approval Prediction System and illustrates how they interact with each other. It provides a clear structure for organizing applicant information, loan requests, prediction results, and machine learning model outputs within the database.
+# Entity Relationship (ER) Diagram Description
 
-The ER diagram features seven primary entities:
-User
-SoilData
-Crop
-Dataset
-MLModel
-Prediction
-Report
+The ER diagram represents the core entities involved in the **OptiCrop Smart Agricultural Production Optimization System** and illustrates how these entities interact with one another. It provides a structured approach for organizing user information, soil data, crop recommendations, machine learning models, prediction outcomes, and generated reports within the system database.
 
-Each entity is uniquely identified by its primary key:
-User: user_id
-SoilData: soil_id
-Crop: crop_id
-Dataset: dataset_id
-MLModel: model_id
-Prediction: prediction_id
-Report: report_id
+## Primary Entities
 
-Relationships
-User to SoilData: One user can submit multiple soil data records for crop analysis (1 to Many).
-SoilData to Prediction: A single soil data entry can generate one crop prediction result (1 to One).
-Crop to Prediction: One crop can be recommended in multiple prediction results (1 to Many).
-MLModel to Prediction: One machine learning model can generate multiple prediction records (1 to Many).
-Dataset to MLModel: A single dataset can be used to train multiple machine learning models (1 to Many).
-Prediction to Report: One prediction can generate multiple agricultural reports and recommendations (1 to Many).
+The ER diagram consists of seven primary entities:
 
-Foreign Keys
-SoilData references User via user_id.
-Prediction references SoilData via soil_id.
-Prediction references Crop via crop_id.
-Prediction references MLModel via model.id.
-Report references Prediction via predictio_id.
+1. User
+2. SoilData
+3. Crop
+4. Dataset
+5. MLModel
+6. Prediction
+7. Report
 
-Cardinality
-A single user can submit multiple soil data records for agricultural analysis. Each soil data entry is processed by the machine learning model to generate crop prediction results. A crop can appear in multiple predictions, while a single machine learning model can generate predictions for many users and soil conditions. Each prediction can further generate multiple agricultural reports containing summaries and farming recommendations.
+Each entity is uniquely identified using a primary key as follows:
 
-Normalization and Structure
-The ER diagram is normalized to separate user information, soil parameters, crop details, datasets, machine learning models, prediction records, and reports into different entities. This structure reduces redundancy, improves scalability, and ensures efficient management of agricultural and prediction-related data.
+* **User:** `user_id`
+* **SoilData:** `soil_id`
+* **Crop:** `crop_id`
+* **Dataset:** `dataset_id`
+* **MLModel:** `model_id`
+* **Prediction:** `prediction_id`
+* **Report:** `report_id`
 
-Use Case Coverage
-This ER model supports the core functionalities of the OptiCrop Smart Agricultural Production Optimization System, including:
-Collecting and managing soil and environmental data from users.
-Predicting suitable crops using machine learning algorithms.
-Managing datasets and trained machine learning models.
-Generating intelligent crop recommendations and prediction reports.
-Supporting sustainable farming practices and data-driven agricultural decision-making.
+## Relationships
+
+The relationships between entities are defined as follows:
+
+* **User to SoilData:** One user can submit multiple soil data records for crop analysis (**One-to-Many**).
+
+* **SoilData to Prediction:** One soil data record generates a single crop prediction result (**One-to-One**).
+
+* **Crop to Prediction:** One crop can be recommended across multiple prediction results (**One-to-Many**).
+
+* **MLModel to Prediction:** One machine learning model can generate multiple prediction records (**One-to-Many**).
+
+* **Dataset to MLModel:** One dataset can be used to train multiple machine learning models (**One-to-Many**).
+
+* **Prediction to Report:** One prediction can generate multiple agricultural reports and recommendations (**One-to-Many**).
+
+## Foreign Keys
+
+The entities are linked through the following foreign keys:
+
+* `SoilData` references `User` through `user_id`.
+* `Prediction` references `SoilData` through `soil_id`.
+* `Prediction` references `Crop` through `crop_id`.
+* `Prediction` references `MLModel` through `model_id`.
+* `Report` references `Prediction` through `prediction_id`.
+
+## Cardinality
+
+The cardinality of the relationships defines how entities interact within the system. A single user can submit multiple soil data records for agricultural analysis. Each soil data entry is processed by a machine learning model to generate crop prediction results. A crop may appear in multiple prediction outcomes, while one machine learning model can generate predictions for numerous users under different soil conditions. Additionally, each prediction may generate multiple reports containing farming summaries and recommendations.
+
+## Normalization and Database Structure
+
+The ER diagram follows normalization principles by separating user information, soil parameters, crop details, datasets, machine learning models, prediction records, and reports into independent entities. This design minimizes redundancy, improves scalability, enhances data integrity, and ensures efficient management of agricultural and prediction-related information.
+
+## Use Case Coverage
+
+The ER model supports the major functionalities of the **OptiCrop Smart Agricultural Production Optimization System**, including:
+
+* Collecting and managing soil and environmental data from users.
+* Predicting suitable crops using machine learning algorithms.
+* Managing datasets and trained machine learning models.
+* Generating intelligent crop recommendations and prediction reports.
+* Supporting sustainable farming practices and data-driven agricultural decision-making.
