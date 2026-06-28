@@ -19,3 +19,13 @@ The expected outcomes of the system include:
 This business problem specification serves as the basis for further stages including requirement analysis, data collection, model development, system design, implementation, and deployment of the agricultural recommendation system.
 
 ![alt text](Images/Problem.png)
+
+# Business Requirements
+
+The system should analyze agricultural and environmental data to generate accurate crop recommendations. It must process important parameters such as Nitrogen (N), Phosphorous (P), Potassium (K), temperature, humidity, rainfall, pH level, and seasonal conditions to determine suitable crops.
+
+The application should provide a user-friendly web interface where users can enter agricultural data and receive real-time crop predictions. It should ensure proper integration between the machine learning model and the web application for reliable and efficient results.
+
+The system should support machine learning algorithms, data preprocessing, and prediction analysis to improve accuracy. It should also optimize the use of resources such as water and fertilizers, reduce crop failure risks, and maintain scalability for future enhancements.
+
+![alt text](Images/Business%20Requirements.png)
