@@ -10,10 +10,10 @@ The proposed solution utilizes machine learning and predictive analytics techniq
 
 The expected outcomes of the system include:
 
-• Improved crop selection accuracy
-• Efficient use of agricultural resources
-• Increased farming productivity and profitability
-• Reduced environmental impact through optimized resource utilization
-• Better support for agricultural planning and decision-making
+* Improved crop selection accuracy
+* Efficient use of agricultural resources
+* Increased farming productivity and profitability
+* Reduced environmental impact through optimized resource utilization
+* Better support for agricultural planning and decision-making
 
 This business problem specification serves as the basis for further stages including requirement analysis, data collection, model development, system design, implementation, and deployment of the agricultural recommendation system.
