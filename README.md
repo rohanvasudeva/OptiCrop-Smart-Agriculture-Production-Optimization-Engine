@@ -166,3 +166,5 @@ This phase focuses on developing and integrating the application interface with 
 **Story 2:** Build the Python backend code and integrate it with the trained machine learning model.
 
 **Story 3:** Run, test, and validate the application to ensure accurate crop recommendations and smooth system functionality.
+
+![alt text](workflow.png)
