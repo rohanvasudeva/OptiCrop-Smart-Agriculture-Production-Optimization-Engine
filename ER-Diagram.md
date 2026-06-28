@@ -67,3 +67,5 @@ The ER model supports the major functionalities of the **OptiCrop Smart Agricult
 * Managing datasets and trained machine learning models.
 * Generating intelligent crop recommendations and prediction reports.
 * Supporting sustainable farming practices and data-driven agricultural decision-making.
+
+![alt text](image.png)
