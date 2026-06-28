@@ -29,3 +29,29 @@ The application should provide a user-friendly web interface where users can ent
 The system should support machine learning algorithms, data preprocessing, and prediction analysis to improve accuracy. It should also optimize the use of resources such as water and fertilizers, reduce crop failure risks, and maintain scalability for future enhancements.
 
 ![alt text](Images/Business%20Requirements.png)
+
+# Literature Survey
+
+Various research studies have explored the application of Machine Learning and Artificial Intelligence in agriculture to improve crop recommendation and farming efficiency.
+
+1. Machine Learning-Based Optimal Crop Selection System in Smart Agriculture
+   Authors: Sita Rani et al. (2023)
+   Description: This paper focuses on machine learning techniques for crop selection based on environmental and soil parameters. The study showed that ML models can improve decision-making and crop productivity.
+   Paper Link: [Scientific Reports Paper](https://www.nature.com/articles/s41598-023-42356-y?utm_source=chatgpt.com)
+
+2. Enhancing Agricultural Productivity: A Machine Learning Approach to Crop Recommendations
+   Authors: Farida Siddiqi Prity et al. (2024)
+   Description: This research applied machine learning algorithms to improve crop recommendations and agricultural productivity using agricultural datasets.
+   Paper Link: [Springer Research Paper](https://link.springer.com/article/10.1007/s44230-024-00081-3?utm_source=chatgpt.com)
+
+3. Crop Recommendation System Using Machine Learning
+   Authors: K. Salma Kathoon et al. (2025)
+   Description: The study proposed a crop recommendation system using Neural Networks and soil parameters such as Nitrogen, Phosphorous, Potassium, pH, humidity, and rainfall for prediction.
+   Paper Link: [Research PDF Paper](https://www.scitepress.org/Papers/2025/138908/138908.pdf?utm_source=chatgpt.com)
+
+4. Incorporating Soil Information with Machine Learning for Crop Recommendation
+   Authors: Hadeeqa Afzal et al. (2025)
+   Description: This paper analyzed soil properties and environmental factors to improve recommendation accuracy and agricultural output.
+   Paper Link: [Scientific Reports Study](https://doi.org/10.1038/s41598-025-88676-z?utm_source=chatgpt.com)
+
+The literature survey shows that machine learning algorithms significantly improve crop prediction, resource optimization, and agricultural decision-making. The findings from these studies help in selecting appropriate techniques for developing the proposed agricultural production optimization system.
